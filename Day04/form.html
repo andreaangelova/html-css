@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <form>
+            <label for="name">Name:</label>
+            <br/>
+            <input type="text" id="name" disabled>
+            <br/> <br/>
+            <!-- <label for="surname">SurName:</label> -->
+            <br/>
+            <input type="text" id="surname" value="doe" readonly placeholder="Your Surname">
+            <br/> <br/>
+            <label for="password">Password:</label>
+            <br/>
+            <input type="password" id="password" required minlength="9" placeholder="more than 8 characters">
+            <br/> <br/>
+            <label for="radio">Radio button example:</label>
+            <br/>
+            <input type="radio" id="radio">
+            <br/> <br/>
+            <label for="checkbox">Checkbox:</label>
+            <br/>
+            <input type="checkbox" id="checkbox" checked>
+            <br/> <br/>
+            <label for="button">Input Type Button:</label>
+            <br/>
+            <input type="button" id="button" value="Submit Form">
+            <br/> <br/>
+            <label for="button">Button:</label>
+            <br/>
+            <button id="button">Submit Form</button>
+            <br/> <br/>
+            <label for="color">Color:</label>
+            <br/>
+            <input type="color" id="color">
+            <br/> <br/>
+            <label for="email">Email:</label>
+            <br/>
+            <input type="email" id="email" value="test@hotmail.com">
+            <br/> <br/>
+            <label for="file">File:</label>
+            <br/>
+            <input type="file" id="file" accept=".png">
+            <br/> <br/>
+            <label for="number">Number:</label>
+            <br/>
+            <input type="number" step="15" id="number" max="10">
+            <br/> <br/>
+            <label for="date">Date:</label>
+            <br/>
+            <input type="date" id="date" min="2022-01-15">
+            <br/> <br/>
+            <label for="range">Range:</label>
+            <br/>
+            <input type="range" step="30" id="range">
+            <br/> <br/>
+            <label for="select">Select:</label>
+            <br/>
+            <select id="select" name="select">
+                <option value="1">number 1</option>
+                <option value="2">number 2</option>
+                <option value="3" selected>number 3</option>
+                <option value="4">number 4</option>
+            </select>
+            <br/> <br/>
+            <label for="textare">Textarea:</label>
+            <br/>
+            <textarea rows="10" cols="50"></textarea>
+
+            
+            <br><br>
+            <h2>Radio buttons</h2>
+            <input type="radio" value="female" id="female" name="gender" checked>
+            <label for="female">Female</label>
+            <input type="radio" value="male" id="male" name="gender">
+            <label for="male">Male</label>
+            <br>
+            <input type="submit" value="submit form">
+        </form>
+    </body>
+</html>
