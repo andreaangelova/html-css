@@ -1,0 +1,46 @@
+@import url(./inputStyles.css);
+* {
+    background-color: aquamarine;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 30px;
+}
+p {
+    color: blueviolet !important;
+    font-family: fantasy;
+}
+a, label {
+    color: green;
+    /* this will 
+    change the link color */
+}
+
+label {
+    font-weight: bolder;
+}
+
+#important {
+    background-color: lightcoral;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+.green {
+    color: green;
+}
+
+div p {
+    color: blue;
+}
+
+section > p {
+    color:  brown;
+}
+p.bg {
+    background-color: darkgray;
+}
+p:last-child {
+    background-color: bisque;
+}
