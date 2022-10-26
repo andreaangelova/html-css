@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    font-size: x-large;
+}
+table, td, th {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+}
+
+tr:hover {
+    background-color: lightgray;
+}
+
+tr:nth-child(odd) {
+    background-color: lightcoral;
+}
+
+#header {
+    background-color: green;
+}
