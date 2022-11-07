@@ -1,0 +1,190 @@
+
+body {
+    margin: 0;
+}
+.gray {
+    color: gray;
+}
+/* header start */
+header {
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0 10px 18px lightgray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+header a:hover {
+    background-color: lightgray;
+}
+#navigation {
+    float: right;
+}
+header .wrapper {
+    padding: 20px;
+}
+/* header end */
+
+/* home start */
+#home {
+    margin: 0 70px;
+    position: relative;
+}
+#home img {
+    width: 100%;
+}
+#home h1 {
+    font-size: 36px;
+    font-weight: 100;
+    color: darkslategray;
+    letter-spacing: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+/* home end */
+
+/* content section start */
+.content {
+    max-width: 1150px;
+    margin: auto;
+    overflow: auto;
+    padding: 60px 0;
+}
+section .items {
+    float: left;
+    width: 50%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.items img{
+    width: 100%;
+    opacity: 0.8;
+}
+.content h1 {
+    font-size: 36px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 40px;
+}
+/* content section start */
+
+/* about start */
+#about h3 {
+    font-size: 19px;
+    letter-spacing: 5px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#about p {
+    line-height: 25px;
+    font-size: 18px;
+}
+
+#about p span {
+    background-color: lightgrey;
+}
+
+#about, #menu {
+    border-bottom: 1px solid lightgray;
+}
+
+/* about end */
+
+/* menu start */
+#menu h3 {
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+#menu p {
+    margin-bottom: 45px;
+}
+/* menu end */
+
+/* contact start */
+#contact h1 {
+    text-align: left;
+    margin-bottom: 50px;
+}
+#contact p {
+    margin: 26px 0;
+}
+#contact .small {
+    font-size: 14px;
+}
+#location {
+    font-size: 18px;
+    color: darkslategrey;
+    font-weight: bold;
+}
+#contact input {
+    display: block;
+    width: 100%;
+    padding: 20px 5px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+#contact button {
+    text-transform: uppercase;
+    border: none;
+    padding: 15px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+#contact button:hover {
+    background-color: lightgray;
+}
+/* contact end */
+
+/* footer start */
+footer {
+    height: 100px;
+    background-color: lightgray;
+    text-align: center;
+    position: relative;
+}
+footer p {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+footer a {
+    color: black;
+}
+footer a:hover {
+    color: green;
+}
+/* footer end */
+
+@media screen and (max-width: 600px) {
+    section .items {
+        width: 100%;
+    }
+    #navigation, #about img {
+        display: none;
+    }
+    #home {
+        margin: 30px 0 0;
+    }
+    .content {
+        padding: 20px 0;
+    }
+    #contact {
+        margin: 0 20px;
+    }
+}
